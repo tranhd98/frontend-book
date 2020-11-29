@@ -1,8 +1,65 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.navbar-firstpage{
+  position: absolute;
+  z-index: 10;
+  background-color: transparent!important;
 }
 
-a {
-  color: #00B7FF;
+.navbar{
+  height: 10%;
+  width: 100%;
+  padding: 0;
+
+}
+
+.nav-name{
+  color: rgba(255,255,255,3)!important;
+  font-size: 1.2rem;
+  margin-right: 5rem;
+  font-weight: bold;
+}
+
+.navbar-brand{
+  width: 20%;
+  padding: 10%;
+}
+.navbar-others{
+  padding: 1% 10% 1%;
+}
+
+
+.picture{
+  background-image: url('../images/150120_2015-reading_catherine-mcbride_large.v4.jpg');
+  min-height: 50rem;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.container1{
+  position: absolute;
+  color: #fff;
+  top: 30%;
+  left: 10%;
+}
+#book{
+  font-weight: 800;
+  font-size: 5rem;
+}
+.title{
+  text-align: center;
+}
+#btnLoadBooks{
+  margin: 5% auto 7% auto;
+}
+.no-button{
+  margin: 5% auto 7% auto;
+}
+.container2{
+  padding-left: 0;
+}
+#toggle-div{
+  display: none;
 }
